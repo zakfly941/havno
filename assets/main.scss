@@ -3,75 +3,85 @@
 
 ---
 $brand-color: rgb(144,148,152);
-$background-color: rgba(0,8,16,0.84);
+$background-color: rgba(0,8,16,0.89);
 $text-color: rgba(255,255,255,0.73);
+$grey-color-light: rgba(255,255,255,0.43);
 @import "minima";
 
-	p, h1, h2, h3, ul, ul li {
-	color: rgba(255,255,255,0.89);
+p, h1, h2, h3, ul, ul li {
+color: rgba(255,255,255,0.89);
 }
 
-	.site-title:link, .site-title:visited {
-	color:#FFF;
-	text-decoration:none;
-	opacity: 0.8;
-	cursor: pointer;
-	}
-	.site-title:hover {
-	color:#FFF;
-	text-decoration:none;
-	opacity: 1;
-	transition: opacity 0.4s;
-	cursor: pointer;
-	}
+.site-title:link, .site-title:visited {
+color:#FFF;
+text-decoration:none;
+opacity: 0.8;
+cursor: pointer;
+}
 
-	.site-title:active {
-	color:#FFF;
-	text-decoration:none;
-	opacity: 0.6;
-	cursor: pointer;
-	}
-	
-	pre,
-	code {
-	  background-color: rgba(255,255,255,0.09);
-	  border: 1px solid rgba(255,255,255,0.19);
-	}
-	
-	figure {
-	  background: none;
-	}
-	
-	.highlight {
-	background: rgb(30,34,41);
-	border: none;
-	}
-	
-	.site-header {
-	border-bottom: 1px solid rgba(255,255,255,0.44);
-	}
-	
-	.site-footer {
-	box-shadow: 0px -20px 144px rgba(0,10,26,0.31);
-	border-top: 1px solid rgba(255,255,255,0.28);
-	}
-	
-	a:link, a:visited {
-	color: $text-color;
-	}
-	
-	a:hover {
-	color: $text-color;
-	}
-	
-	a:active {
-	color: $text-color;
-	}
-	
-	hr {
-	opacity: 0.44;
-	}
-	
-	.page-content {
-	border: none;
-	}
+.site-title:hover {
+color:#FFF;
+text-decoration:none;
+opacity: 1;
+transition: opacity 0.4s;
+cursor: pointer;
+}
+
+.site-title:active {
+color:#FFF;
+text-decoration:none;
+opacity: 0.6;
+cursor: pointer;
+}
+
+pre,
+code {
+background-color: rgba(255,255,255,0.09);
+border: 1px solid rgba(255,255,255,0.19);
+}
+
+figure {
+background: none;
+}
+
+.highlight {
+background: rgb(30,34,41);
+border: none;
+}
+
+.site-header {
+border-bottom: 1px solid rgba(255,255,255,0.14);
+}
+
+.site-footer {
+background: black;
+opacity: 0.44;
+box-shadow: 0px -20px 144px rgba(0,8,20,0.91);
+border-top: 1px solid rgba(255,255,255,0.18);
+}
+
+a:link, a:visited {
+color: $text-color;
+}
+
+a:hover {
+color: $text-color;
+}
+
+a:active {
+color: $text-color;
+}
+
+hr {
+opacity: 0.44;
+}
+
+@include media-query($on-palm) {
+border: grey;
+    label[for="nav-trigger"] {
+      background: rgb(18,24,32);
+      box-shadow: 0px 5px 10px black;
+    }
+}
+
+
