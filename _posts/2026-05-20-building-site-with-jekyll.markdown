@@ -6,6 +6,6 @@ categories: jekyll update
 
 ---
 # Another awesome Blog Post
-<img src="{{ "/assets/img/havno01.png" | prepend: site.baseurl | prepend: site.url}}" alt="Untitled" />
+<img src="{{site.baseurl | prepend: site.url}}assets/Untitled.png" alt="Untitled" />
 <br/><br/>
 Text here.
