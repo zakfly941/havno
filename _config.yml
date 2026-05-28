@@ -25,8 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 # UNCOMMENT THESE URLs FOR PRODUCTION
-url: 'https://zakfly941.github.io/' # your main domain
-baseurl: 'havno' # if you're using custom domain keep this blank example: baseurl: ''
+# url: 'https://zakfly941.github.io/' # your main domain
+# baseurl: 'havno' # if you're using custom domain keep this blank example: baseurl: ''
 dribbble_username: ooz
 github_username:  zakfly941
 
@@ -36,6 +36,7 @@ skin: dark
 show_excerpts: true
 include:
   - game
+  - _layout
 # remote_theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-feed

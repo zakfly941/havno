@@ -3,6 +3,8 @@ layout: post
 title:  "Havno release soon"
 date:   2026-05-20 09:23:00 +0200
 categories: jekyll update
+
+tags: [Havno, Game]
 ---
 <p>Havno is an AGS Studio based adventure-game. It's playable online thanks to JavaScript Compiling options.
 </p><br/>
